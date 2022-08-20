@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height: 150vh ;
+    position:relative ;
+    background-image: url(images/donation1.jpg);
+    background-size:cover;
+}
+.container .inner{
+    position: absolute;
+    width: 40%;
+   /* background-color: azure; */
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+
+}
+section{
+    display: flex;
+}
+.container .inner p{
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+}
+P{
+   font-size: larger; 
+}
+.nothing{
+    color: azure;
+    size: 50 px; ;
+}
+.special{
+    color:azure;
+    size: 100% ;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orangered;
+    padding:10px 40px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 700;
+    text-align: center;
+    
+}
