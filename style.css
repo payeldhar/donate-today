@@ -50,3 +50,17 @@ P{
     text-align: center;
     
 }
+.white{
+    background-color:wheat;
+}
+
+.box{
+    display: inline-block;
+    width:100px ;
+    height:80px;
+    font-weight: 500;
+}
+.contain{
+    display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
