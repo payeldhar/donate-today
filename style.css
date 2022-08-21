@@ -7,18 +7,9 @@ font-family: 'Poppins', sans-serif;
 .container{
     width:100%;
     height: 150vh ;
-    position:relative ;
     background-image: url(images/donation1.jpg);
     background-size:cover;
-}
-.container .inner{
-    position: absolute;
-    width: 40%;
-   /* background-color: azure; */
-    transform:translate(-50%,-50%);
-    top:50%;
-    left:50%;
-
+    text-align: center;
 }
 section{
     display: flex;
@@ -55,12 +46,14 @@ P{
 }
 
 .box{
-    display: inline-block;
     width:100px ;
     height:80px;
     font-weight: 500;
 }
 .contain{
     display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:repeat(5,1fr);
+}
+.amount{
+    text-align: center;
 }
