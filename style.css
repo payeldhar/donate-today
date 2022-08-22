@@ -89,3 +89,21 @@ section{
 .mafi{
     text-align: center;
 }
+form {
+    text-align: center;
+    border-radius: 12 px;
+    padding: 50 px;
+    background-color: bisque;
+    background-size: 200 cm ;
+}
+.tired{
+    background: #151515;
+}
+.buwa{
+    color: orangered;
+    text-align: center;
+}
+.kaka{
+    color: whitesmoke;
+    text-align: center;
+}
