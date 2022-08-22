@@ -68,3 +68,13 @@ P{
   box-shadow: 10px 10px 40px grey;
   border-radius:10px;
 }
+section{
+    display: flex;
+}
+.father{
+    width:50%;
+    padding-left: 5%;
+}
+.father img {
+     width: 90% ;
+}
